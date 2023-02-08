@@ -1,0 +1,134 @@
+ body{
+
+    background-color:hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+     font-weight: 700px;
+
+ }
+ .big{
+     width: 600px;
+     margin: auto;
+    margin-top: 150px;
+    align-items: center;
+    
+ }
+ .top{
+    background-color: white;
+    padding-left: 30px;
+    border-radius:10px 10px 0px 0px ;
+    padding-top: 20px;
+    padding-bottom: 35px;
+
+
+ }
+ h2{
+    color:hsl(179, 62%, 43%) ;
+    
+ }
+ .top h4{
+    color: hsl(71, 73%, 54%) ;
+    font-weight: bold;
+ }
+ .top p{
+    color: hsl(218, 22%, 67%);
+    line-height: 28px;
+ }
+ .buttom{
+    display: flex;
+    margin-top: -15px;
+ }
+ .left{
+    background-color: hsl(179, 62%, 43%);
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 15px;
+    border-radius: 0px 0px 0px 10px;
+ 
+ }
+ .left p{
+    color:  hsl(204, 43%, 93%);
+    line-height: 30px;
+ }
+ span{
+    font-weight: bold;
+    font-size: larger;
+    padding-right: 10px;
+ }
+ #span{
+     font-weight: lighter ;
+ }
+ button{
+
+    background-color:hsl(71, 73%, 54%) ;
+    color: white;
+    padding: 15px 90px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: none;
+  
+ }
+ .left h4{
+    color:  hsl(204, 43%, 93%);
+ }
+ .right{
+    background-color:  hsl(179, 93%, 38%);
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-radius: 0px 0px 10px 0px;
+    color:hsl(204, 43%, 93%);
+    line-height: 20px;
+    font-weight: lighter;
+ 
+ }
+
+ @media (max-width : 375px){
+    .big{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+
+
+    }
+    .top{
+        background-color:white;
+        width: 320px;
+        border-radius: 10px 10px 0px 0px;
+        line-height: 30px;
+        padding-right: 15px;
+    
+    }
+    .buttom{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .left{
+        background-color: hsl(179, 48%, 43%); 
+        line-height: 20px;
+        width: 320px; 
+        border-radius: 0px;
+     
+        
+       
+    }
+     
+    .right{
+       
+       
+        background-color:  hsl(179, 93%, 38%);
+        width: 320px;
+        border-radius: 0px 0px 10px 10px;
+        color:hsl(204, 43%, 93%);
+        line-height: 25px;
+        padding-right: 15px;
+        font-weight: lighter;
+        
+    }
+    
+    
+
+}
